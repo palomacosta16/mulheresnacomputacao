@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+body{
+    font-family: Open Sans, sans-serif;
+    background-color: rgb(87, 0, 128);
+    
+}
+@media (max-width: 768px){
+    div{
+        display: block;
+        padding: 10px;
+        margin: 5px 10px;
+    }
+    header {
+        margin-bottom: 20 px;
+        height: 200 px;
+    }
+    h1 {
+        font-size: 32px;
+        text-decoration: wavy;
+    }
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+h1{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: aliceblue;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: white;
+}
+section{
+    margin: 0 auto;
+  display: block;
+  max-width: 1024px;
+  width: 100%;
+}
+a{
+    color: white;
+}
+.card{
+    display: inline-block;
+    margin: 10px;
+    border: 1px  rgb(209, 209, 209);
+    vertical-align: top;
+    max-height: 100%;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: rgba(149, 82, 180, 0.192);
+}
+.card img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.card details{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+.card details summary{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(149, 82, 180, 0.329);
+}
+.card details p {
+    padding: 0 10px;
+}
+.newsletter{
+    background-color:  rgba(149, 82, 180, 0.329);
+    display:block;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(51, 27, 61, 0.329);
+    border-radius: 10px;
+}
+.newsletter h1 {
+    font-size: 20px;
+    line-height: 50px;
+}
+.txtb {
+    width:100% ;
+    height: 70px;
+}
+.txtb input {
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    border:0 ;
+    padding: 0 30px;
+
+}
+button {
+    background:rgb(255, 255, 255);
+    border: 0;
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    font-weight: bold;
+    right: 10px;
+    cursor:pointer;
+}
